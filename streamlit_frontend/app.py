@@ -1,20 +1,21 @@
 import time
+
+import numpy as np
 import requests
 import streamlit as st
 from PIL import Image
-import numpy as np
-from configs import api_url
 
-def add_button(uploaded_file=None, img:list= None):
+
+def add_button(uploaded_file=None, img: list = None):
     if st.button("Generate Caption"):
         if uploaded_file is not None:
             payload = {'img_array': img}
-            response = requests.post(url=f"{api_url}/generate", json=payload)
+            response = requests.post(url="http://service:8032/generate", json=payload)
             if response.status_code == 200:
                 with st.spinner('Caption is generating...'):
                     time.sleep(2)
                     predicted_caption = response.json()["caption"]
-                st.info("Caption:" )
+                st.info("Caption:")
                 st.success(predicted_caption)
             else:
                 st.error("Fetching error for generating caption prediction.")

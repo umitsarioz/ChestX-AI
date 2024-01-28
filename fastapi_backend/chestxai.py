@@ -1,7 +1,7 @@
 import numpy as np
-from keras.utils import img_to_array, pad_sequences
-from keras.applications.vgg19 import preprocess_input
 from PIL import Image
+from keras.applications.vgg19 import preprocess_input
+from keras.utils import img_to_array, pad_sequences
 
 
 def extract_an_image_feature(img: list, model) -> np.ndarray:

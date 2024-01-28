@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  frontendui:
+    build: streamlit_frontend
+    ports:
+      - 8030:8030
+    volumes:
+      - ./streamlit_frontend:/app
+    restart: always
+    depends_on:
+      - service
+
+  service:
+    build: fastapi_backend
+    ports:
+      - 8032:8032
+    restart: always
+    volumes:
+      - ./fastapi_backend:/app

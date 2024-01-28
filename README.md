@@ -7,23 +7,23 @@ It's a machine learning project for image captioning on radiological Chest X-ray
 <p align="center">
  <b>Figure 1. ChestX-AI Demo</b></p>
 
-# Deployment
+# Setup & Deployment
 
 Model files are big so not uplodaded in this repo. However you can download these from <a href="https://drive.google.com/drive/folders/1-Ob7w1VYhxYyGfrnaR2Jrc5wkqvdisFt?usp=sharing">this link</a>
 
-- Download models from link is above.
-- Go to project folder and make directory named as "models".
-- Move downloaded models files into "models" directory
-- pip3 install -r requirements.txt
-- streamlit run ui.py --server.port 8030
-- uvicorn fast-api:app --port 8032
-- Voila! Now you can use your product in <a href="http://localhost:8030">this link.</a>
+## Prerequisites
+- Download models(`*.pkl & *.h5 files`) from link is above.
+- Go to `project folder > fastapi_backend > models` and <b>move downloaded models into the folder.</b>
 
-> Note: You can start backend with --reload parameter. Then each change, backend fastp-api will restart automatically.
+## Deployment
+- First usage: ` docker-compose up -d --build`  
+- Already build: ` docker-compose up -d `
+- For shutdown: ` docker-compose down`
+- Voila! Now you can use your product in <a href="http://localhost:8030">your localhost http://localhost:8030 .</a>
 
 # To-Do:
 
-- Dockerize version
+- <s>Dockerize version</s> 
 - AWS S3 or GDrive API connection to retrieve models
 - Evaluating model & finetuning
 - Create a PDF like a radiologist report. (Some textboxts will add to UI about patient)
