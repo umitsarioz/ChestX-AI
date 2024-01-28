@@ -7,6 +7,27 @@ It's a machine learning project for image captioning on radiological Chest X-ray
 <p align="center">
  <b>Figure 1. ChestX-AI Demo</b></p>
 
+# Deployment
+
+Model files are big so not uplodaded in this repo. However you can download these from <a href="https://drive.google.com/drive/folders/1-Ob7w1VYhxYyGfrnaR2Jrc5wkqvdisFt?usp=sharing">this link</a>
+
+- Download models from link is above.
+- Go to project folder and make directory named as "models".
+- Move downloaded models files into "models" directory
+- pip3 install -r requirements.txt
+- streamlit run ui.py --server.port 8030
+- uvicorn fast-api:app --port 8032
+- Voila! Now you can use your product in <a href="http://localhost:8030">this link.</a>
+
+> Note: You can start backend with --reload parameter. Then each change, backend fastp-api will restart automatically.
+
+# To-Do:
+
+- Dockerize version
+- AWS S3 or GDrive API connection to retrieve models
+- Evaluating model & finetuning
+- Create a PDF like a radiologist report. (Some textboxts will add to UI about patient)
+
 # Dataset
 Open-i service of the National Library of Medicine enables search and retrieval of abstracts and images (including charts, graphs, clinical images, etc.) from the open source literature, and biomedical image collections. Searching may be done using text queries as well as query images. Open-i provides access to over 3.7 million images from about 1.2 million PubMed Central® articles; 7,470 chest x-rays with 3,955 radiology reports; 67,517 images from NLM History of Medicine collection; and 2,064 orthopedic illustrations.
 
