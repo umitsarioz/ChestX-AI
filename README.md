@@ -1,8 +1,11 @@
 # ARChestX-v1
 It's a machine learning project for image captioning on radiological Chest X-ray images. NLP is used for captioning, image processing and CNN used for feature extraction of images.  
 
-<center><img src="chestx-ai-demo.gif" alt="ChestX-AI Demo.gif"></center>
- <center><b>Figure 1. ChestX-AI Demo</b></center>
+<p align="center">
+ <img src="chestx-ai-demo.gif" alt="ChestX-AI Demo.gif">
+</p>
+<p align="center">
+ <b>Figure 1. ChestX-AI Demo</b></p>
 
 # Dataset
 Open-i service of the National Library of Medicine enables search and retrieval of abstracts and images (including charts, graphs, clinical images, etc.) from the open source literature, and biomedical image collections. Searching may be done using text queries as well as query images. Open-i provides access to over 3.7 million images from about 1.2 million PubMed Central® articles; 7,470 chest x-rays with 3,955 radiology reports; 67,517 images from NLM History of Medicine collection; and 2,064 orthopedic illustrations.
