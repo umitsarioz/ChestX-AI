@@ -27,7 +27,7 @@ def add_image():
     img = None
     if uploaded_file is not None:
         img = Image.open(uploaded_file)
-        new_st_img = img.resize((300, 300))
+        new_st_img = img.resize((200, 200))
         st.image(new_st_img, caption=uploaded_file.name)
 
         img = np.asarray(img).tolist()
