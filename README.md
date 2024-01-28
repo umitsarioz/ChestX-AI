@@ -1,4 +1,4 @@
-# ARChestX-v1
+# ChestX-AI
 It's a machine learning project for image captioning on radiological Chest X-ray images. NLP is used for captioning, image processing and CNN used for feature extraction of images.  
 
 <p align="center">
@@ -33,7 +33,8 @@ Model files are big so not uplodaded in this repo. However you can download thes
 
 - <s>Dockerize version</s> 
 - AWS S3 or GDrive API connection to retrieve models
-- Evaluating model & finetuning
+- Evaluating model & hyperparameter-finetuning
+- model finetuning : Attention based model 
 - Create a PDF like a radiologist report. (Some textboxts will add to UI about patient)
 
 # Dataset
