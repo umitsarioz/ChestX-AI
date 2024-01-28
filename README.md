@@ -7,6 +7,14 @@ It's a machine learning project for image captioning on radiological Chest X-ray
 <p align="center">
  <b>Figure 1. ChestX-AI Demo</b></p>
 
+## Technologies 
+
+<p align="center">
+ <img src="tech_stack.png" alt="technology_stack.png">
+</p>
+<p align="center">
+ <b>Figure 2. Technology Stack</b></p>
+
 # Setup & Deployment
 
 Model files are big so not uplodaded in this repo. However you can download these from <a href="https://drive.google.com/drive/folders/1-Ob7w1VYhxYyGfrnaR2Jrc5wkqvdisFt?usp=sharing">this link</a>
