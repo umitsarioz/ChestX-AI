@@ -2,7 +2,7 @@
 It's a machine learning project for image captioning on radiological Chest X-ray images. NLP is used for captioning, image processing and CNN used for feature extraction of images.  
 
 <p align="center">
- <img src="chestx-ai-demo.gif" alt="ChestX-AI Demo.gif">
+ <img src="images/chestx-ai-demo.gif" alt="ChestX-AI Demo.gif">
 </p>
 <p align="center">
  <b>Figure 1. ChestX-AI Demo</b></p>
@@ -10,7 +10,7 @@ It's a machine learning project for image captioning on radiological Chest X-ray
 ## Technologies 
 
 <p align="center">
- <img src="tech_stack.png" alt="technology_stack.png">
+ <img src="images/tech_stack.png" alt="technology_stack.png">
 </p>
 <p align="center">
  <b>Figure 2. Technology Stack</b></p>
