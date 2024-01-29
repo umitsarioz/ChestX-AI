@@ -32,7 +32,7 @@ Model files are big so not uplodaded in this repo. However you can download thes
 # To-Do:
 
 - <s>Dockerize version</s> 
-- AWS S3 or GDrive API connection to retrieve models
+- <s>AWS S3 or GDrive API connection to retrieve models</s> (cancelled)
 - Evaluating model & hyperparameter-finetuning
 - model finetuning : Attention based model 
 - Create a PDF like a radiologist report. (Some textboxts will add to UI about patient)
