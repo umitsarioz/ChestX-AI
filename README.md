@@ -34,7 +34,9 @@ Model files are big so not uplodaded in this repo. However you can download thes
 - <s>Dockerize version</s> 
 - <s>AWS S3 or GDrive API connection to retrieve models</s> (cancelled)
 - Evaluating model & hyperparameter-finetuning
-- model finetuning : Attention based model 
+- model finetuning : Attention based model
+- select models checkbox/combobox etc. on ui
+- add model downloads script or codes into dockerfiles
 - Create a PDF like a radiologist report. (Some textboxts will add to UI about patient)
 
 # Dataset
