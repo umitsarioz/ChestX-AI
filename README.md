@@ -29,7 +29,7 @@ Besides, there is no need to download these for dockerize setup.
 # To-Do:
 
 - <s>Dockerize version</s> 
-- <s>AWS S3 or GDrive API connection to retrieve models</s> (cancelled)
+- <s>API connection to retrieve models</s> 
 - Evaluating model & hyperparameter-finetuning
 - model finetuning : Attention based model
 - <s>select models checkbox/combobox etc. on ui</s>
