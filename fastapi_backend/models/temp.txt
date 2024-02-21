@@ -1,1 +1,0 @@
-You need to move .pkl & .h5 model files into this sub-directory.

@@ -18,13 +18,10 @@ It's a machine learning project for image captioning on radiological Chest X-ray
 # Setup & Deployment
 
 Model files are big so not uplodaded in this repo. However you can download these from <a href="https://drive.google.com/drive/folders/1-Ob7w1VYhxYyGfrnaR2Jrc5wkqvdisFt?usp=sharing">this link</a>
-
-## Prerequisites
-- Download models(`*.pkl & *.h5 files`) from link is above.
-- Go to `project folder > fastapi_backend > models` and <b>move downloaded models into the folder.</b>
+Besides, there is no need to download these for dockerize setup.
 
 ## Deployment
-- First usage: ` docker-compose up -d --build`  
+- First usage: ` docker-compose up -d --build` 
 - Already build: ` docker-compose up -d `
 - For shutdown: ` docker-compose down`
 - Voila! Now you can use your product in <a href="http://localhost:8030">your localhost http://localhost:8030 .</a>
@@ -35,8 +32,8 @@ Model files are big so not uplodaded in this repo. However you can download thes
 - <s>AWS S3 or GDrive API connection to retrieve models</s> (cancelled)
 - Evaluating model & hyperparameter-finetuning
 - model finetuning : Attention based model
-- select models checkbox/combobox etc. on ui
-- add model downloads script or codes into dockerfiles
+- <s>select models checkbox/combobox etc. on ui</s>
+- <s>add model downloads script or codes into dockerfiles</s>
 - Create a PDF like a radiologist report. (Some textboxts will add to UI about patient)
 
 # Dataset

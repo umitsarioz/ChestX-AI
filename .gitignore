@@ -6,8 +6,7 @@ packages.py
 
 # C extensions
 *.so
-fastapi_backend/models/*.pkl
-fastapi_backend/models/*.h5
+fastapi_backend/models
 .idea
 
 # Distribution / packaging
