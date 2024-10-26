@@ -36,10 +36,10 @@ Besides, there is no need to download these for dockerize setup.
 - <s>add model downloads script or codes into dockerfiles</s>
 - Create a PDF like a radiologist report. (Some textboxts will add to UI about patient)
 
-# Dataset
-Open-i service of the National Library of Medicine enables search and retrieval of abstracts and images (including charts, graphs, clinical images, etc.) from the open source literature, and biomedical image collections. Searching may be done using text queries as well as query images. Open-i provides access to over 3.7 million images from about 1.2 million PubMed Central® articles; 7,470 chest x-rays with 3,955 radiology reports; 67,517 images from NLM History of Medicine collection; and 2,064 orthopedic illustrations.
+# Dataset 
 
-Longer descriptions are available in a research article "Design and Development of a Multimodal Biomedical Information Retrieval System" ( http://lhncbc.nlm.nih.gov/system/files/pub2012019.pdf ) and a technical report ( http://lhncbc.nlm.nih.gov/system/files/tr2010002.pdf )
+## What is open-i?
+Open-i service of the National Library of Medicine enables search and retrieval of abstracts and images (including charts, graphs, clinical images, etc.) from the open source literature, and biomedical image collections. Searching may be done using text queries as well as query images. Open-i provides access to over 3.7 million images from about 1.2 million PubMed Central® articles; 7,470 chest x-rays with 3,955 radiology reports; 67,517 images from NLM History of Medicine collection; and 2,064 orthopedic illustrations.
 
 Open-i images are from one of the following sources:
 - The Open Access Subset of PubMed Central (PMC), a free full-text archive of biomedical and life sciences journal literature at the U.S. National Library of Medicine.
@@ -52,6 +52,7 @@ Open-i images are from one of the following sources:
 >http://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/
 >http://www.ncbi.nlm.nih.gov/pmc/about/copyright/
 
+- Dataset Article <a href="https://pubmed.ncbi.nlm.nih.gov/26133894/">link</a>.
 - You can get more information about dataset from <a href="https://openi.nlm.nih.gov/faq#collection">this link</a> .
 - You can download images from <a href="https://openi.nlm.nih.gov/imgs/collections/NLMCXR_png.tgz">this link</a> .
 - You can download image reports from <a href="https://openi.nlm.nih.gov/imgs/collections/NLMCXR_reports.tgz">this link</a> .
