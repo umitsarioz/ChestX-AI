@@ -41,16 +41,9 @@ Besides, there is no need to download these for dockerize setup.
 ## What is open-i?
 Open-i service of the National Library of Medicine enables search and retrieval of abstracts and images (including charts, graphs, clinical images, etc.) from the open source literature, and biomedical image collections. Searching may be done using text queries as well as query images. Open-i provides access to over 3.7 million images from about 1.2 million PubMed Central® articles; 7,470 chest x-rays with 3,955 radiology reports; 67,517 images from NLM History of Medicine collection; and 2,064 orthopedic illustrations.
 
-Open-i images are from one of the following sources:
-- The Open Access Subset of PubMed Central (PMC), a free full-text archive of biomedical and life sciences journal literature at the U.S. National Library of Medicine.
-- The Indiana University hospital network.
-- The Orthopedic Surgical Anatomy Teaching Collection (http://digitallibrary.usc.edu/cdm/landingpage/collection/p15799coll50) at the USC Digital Library (http://digitallibrary.usc.edu/).
-- Images from the History of Medicine Division (https://www.nlm.nih.gov/hmd/) from the U.S. National Library of Medicine.
-- MedPix (https://medpix.nlm.nih.gov/)
 >Reuse of Open-i images is determined by the license type of the image. A link to the applicable license type, if available, may be found below the individual Open-i image on the detailed view page.
 >Please refer to the following web page for information on the PMC open access subset and the PMC Copyright Notice:
 >http://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/
->http://www.ncbi.nlm.nih.gov/pmc/about/copyright/
 
 - Dataset Article <a href="https://pubmed.ncbi.nlm.nih.gov/26133894/">link</a>.
 - You can get more information about dataset from <a href="https://openi.nlm.nih.gov/faq#collection">this link</a> .
